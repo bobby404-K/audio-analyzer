@@ -111,7 +111,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
+ 
 **3. Add audio files**
 Drop `.mp3` or `.wav` files into the `data/` folder. Subfolders are supported too (e.g. `data/podcast/`, `data/music/`) — every script finds files recursively.
 
