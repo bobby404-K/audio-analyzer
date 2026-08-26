@@ -15,7 +15,7 @@ Given one or more audio files, it computes an energy curve over time, smooths it
 - Converts every detected moment into a real timestamp (`mm:ss`)
 - Visualizes the full energy curve, with peaks and valleys clearly marked against the audio's mean energy line
 
----
+--- 
 
 ## How it works
 
