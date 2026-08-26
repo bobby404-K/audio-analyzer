@@ -30,6 +30,7 @@ Given one or more audio files, it computes an energy curve over time, smooths it
 
 This mirrors how real audio-engineering tools measure loudness dynamics, implemented from first principles rather than using a black-box library.
 
+
 ---
 
 ## Example output
