@@ -6,6 +6,7 @@ Given one or more audio files, it computes an energy curve over time, smooths it
 
 ---
 
+
 ## What it does
 
 - Loads any local MP3/WAV audio file and converts it into a raw waveform array
