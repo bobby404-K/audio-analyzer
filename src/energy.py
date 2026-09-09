@@ -36,3 +36,4 @@ if __name__ == "__main__":
             print(f"  Loudest moment:  {format_time(max_time)} (RMS = {smoothed_rms[max_frame]:.4f})")
         except Exception as e:
             print(f"  Skipped {file_path} — error: {e}")
+            
