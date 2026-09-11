@@ -13,6 +13,14 @@ import soundfile as sf
 from numpy.lib.stride_tricks import sliding_window_view
 
 
+def calculate_rms_energy(signal):
+    """Calculates RMS energy for a 1D audio signal."""
+    samples = np.asarray(signal, dtype="float32")
+    if samples.size == 0:
+        raise ValueError("signal must not be empty")
+    return float(np.sqrt(np.mean(samples ** 2)))
+
+
 def compute_rms_streaming(file_path, frame_length=2048, hop_length=512, block_size=2_000_000):
     """
     Computes RMS energy by reading the audio file in chunks from disk,
